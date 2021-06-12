@@ -1,0 +1,8 @@
+Q: Select the correct ordering of steps for an inorder depth-first traversal
+
+A:
+Go to the left subtree
+Visit node
+Go to the right subtree
+
+Notice that we don't actually "visit" a node until we've already gone to the left subtree. In the animation below, the "going" is denoted by changing the color to a light grey. The actual visiting is represented when it turns red. The base cases in the recursion are when there is no left or right subtree to visit.
